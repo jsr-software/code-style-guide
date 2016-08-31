@@ -37,6 +37,7 @@
             <property name="allowMissingParamTags" value="true"/>
             <property name="allowMissingThrowsTags" value="true"/>
             <property name="allowMissingPropertyJavadoc" value="true"/>
+            <property name="tokens" value="METHOD_DEF"/>
         </module>
 
         <module name="JavadocStyle">
@@ -54,7 +55,6 @@
             <property name="allowInSwitchCase" value="true"/>
         </module>
         <module name="AvoidStarImport">
-            <property name="excludes" value="org.junit.*"/>
             <property name="allowClassImports" value="false"/>
             <property name="allowStaticMemberImports" value="false"/>
         </module>
@@ -83,13 +83,12 @@
             <property name="allowMarkerInterfaces" value="true"/>
         </module>
         <module name="LeftCurly"/>
-        <!---->
         <!-- Based on: http://code.google.com/p/google-api-java-client/source/browse/checkstyle.xml -->
         <module name="LineLength">
             <!-- Checks if a line is too long. -->
             <property name="ignorePattern"
                       value="^(package .*;\s*)|(import .*;\s*)|( *\* *https?://.*)|( *// *https?://.*)$"/>
-            <property name="max" value="100"/>
+            <property name="max" value="200"/>
             <property name="severity" value="error"/>
         </module>
         <module name="LocalFinalVariableName"/>
@@ -114,7 +113,7 @@
         <module name="MissingSwitchDefault"/>
         <module name="ModifierOrder"/>
         <module name="MultipleStringLiterals">
-            <property name="allowedDuplicates" value="2"/>
+            <property name="allowedDuplicates" value="3"/>
         </module>
         <module name="MultipleVariableDeclarations"/>
         <module name="MutableException"/>
