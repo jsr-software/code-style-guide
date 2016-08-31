@@ -6,9 +6,17 @@
 
 <suppressions>
     <!-- Suppress JavadocPackage in the test packages -->
-    <suppress checks="JavadocPackage" files="[\\/]test[\\/]"/>
-    <suppress files="[\\/]generated-sources[\\/]" checks="."/>
+    <suppress checks="JavadocMethod" files="[/\\]test[/\\]" />
+    <suppress checks="JavadocPackage" files="[\\/]test[\\/]" />
+    <suppress checks="JavadocVariable" files="[/\\]test[/\\]" />
+    <suppress checks="JavadocMethod" files="[/\\]androidTest[/\\]" />
+    <suppress checks="JavadocPackage" files="[\\/]androidTest[\\/]" />
+    <suppress checks="JavadocVariable" files="[/\\]androidTest[/\\]" />
+
+    <!-- Suppress Android and Generated Files -->
+    <suppress checks="." files="[\\/]generated-sources[\\/]" />
     <suppress checks="." files="Manifest.java" />
     <suppress checks="." files="R.java" />
     <suppress checks="." files="BuildConfig.java" />
+    <suppress checks="." files="ViewServer.java" />
 </suppressions>
