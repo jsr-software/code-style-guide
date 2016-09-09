@@ -20,5 +20,3 @@
     <suppress checks="." files="BuildConfig.java" />
     <suppress checks="." files="ViewServer.java" />
 </suppressions>
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
