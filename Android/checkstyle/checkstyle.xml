@@ -121,7 +121,9 @@
         <module name="MutableException"/>
         <module name="NeedBraces"/>
         <module name="NoClone"/>
-        <module name="NoWhitespaceAfter"/>
+        <module name="NoWhitespaceAfter">
+            <property name="tokens" value="INC, DEC, UNARY_MINUS, UNARY_PLUS, BNOT, LNOT, DOT, ARRAY_DECLARATOR, INDEX_OP"/>
+        </module>
         <module name="NoWhitespaceBefore"/>
         <!-- ternary operator is allowed on one line -->
         <module name="OperatorWrap">
