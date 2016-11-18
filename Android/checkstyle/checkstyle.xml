@@ -63,7 +63,7 @@
             <property name="max" value="10"/> 
         </module> 
         <module name="ConstantName"/>
-        <module name="DeclarationOrder"/>
+        <!-- <module name="DeclarationOrder"/> -->
         <!--<property name="ignoreConstructors" value="false"/>-->
         <!--<property name="ignoreMethods" value="false"/>-->
         <!--<property name="ignoreModifiers" value="false"/>-->
