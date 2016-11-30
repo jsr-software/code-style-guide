@@ -19,6 +19,11 @@
         <Class name="~.*\.MediaItem" />
     </Match>
 
+    <!-- Ignore unsued fields for classes that ends with 'Request' -->
+    <Match>
+        <Class name="~.*Request" />
+        <Bug code="UrF" />
+    </Match>
     <!-- Ignore JUnit test classes - other than JUnit issues -->
     <Match>
         <Class name="~.*\.*Test" />
