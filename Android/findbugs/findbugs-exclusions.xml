@@ -19,10 +19,14 @@
         <Class name="~.*\.MediaItem" />
     </Match>
 
-    <!-- Ignore unsued fields for classes that ends with 'Request' -->
+    <!-- Ignore unused fields for classes that ends with 'Request' -->
     <Match>
         <Class name="~.*Request" />
         <Bug code="UrF" />
+    </Match>
+    <!-- Ignore static inner class rule -->
+    <Match>
+        <Bug code="SIC" />
     </Match>
     <!-- Ignore JUnit test classes - other than JUnit issues -->
     <Match>
