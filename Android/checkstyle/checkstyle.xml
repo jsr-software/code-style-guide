@@ -28,11 +28,11 @@
     <module name="TreeWalker">
         <property name="tabWidth" value="1"/>
         <!-- start of javadoc rules built using http://checkstyle.sourceforge.net/config_javadoc.html -->
+        <!-- Removed rules per team discussion 20/12/2016
         <module name="JavadocType">
             <property name="scope" value="private"/>
         </module>
 
-        <!-- Removed rules per team discussion 20/12/2016
         <module name="JavadocMethod">
             <property name="scope" value="public"/>
             <property name="allowMissingParamTags" value="true"/>
