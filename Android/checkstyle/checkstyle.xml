@@ -32,6 +32,7 @@
             <property name="scope" value="private"/>
         </module>
 
+        <!-- Removed rules per team discussion 20/12/2016
         <module name="JavadocMethod">
             <property name="scope" value="public"/>
             <property name="allowMissingParamTags" value="true"/>
@@ -45,6 +46,7 @@
             <property name="checkFirstSentence" value="true"/>
             <property name="checkEmptyJavadoc" value="true"/>
         </module>
+        -->
         <!-- end of javadoc rules -->
 
         <module name="FileContentsHolder"/>
