@@ -61,9 +61,9 @@
             <property name="allowStaticMemberImports" value="false"/>
         </module>
         <module name="BooleanExpressionComplexity"/>
-        <module name="ClassDataAbstractionCoupling"> 
-            <property name="max" value="10"/> 
-        </module> 
+        <module name="ClassDataAbstractionCoupling">
+            <property name="max" value="20"/> 
+        </module>
         <module name="ConstantName"/>
         <!-- <module name="DeclarationOrder"/> -->
         <!--<property name="ignoreConstructors" value="false"/>-->
