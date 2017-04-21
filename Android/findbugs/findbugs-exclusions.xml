@@ -24,10 +24,17 @@
         <Class name="~.*Request" />
         <Bug code="UrF" />
     </Match>
+    
+    <!-- Ignore Dagger generated classes -->
+    <Match>
+        <Class name="~.*ComponentImpl"/>
+    </Match>
+    
     <!-- Ignore static inner class rule -->
     <Match>
         <Bug code="SIC" />
     </Match>
+    
     <!-- Ignore JUnit test classes - other than JUnit issues -->
     <Match>
         <Class name="~.*\.*Test" />
