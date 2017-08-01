@@ -21,5 +21,9 @@
     <suppress checks="." files="ViewServer.java" />
         
     <!-- Veon Android exclusions -->
+    <suppress checks="." files="com[\\/]afollestad"/>
+    <suppress checks="." files="com[\\/]dinuscxj"/>
+    <suppress checks="." files="com[\\/]roughike"/>
     <suppress checks="." files="com[\\/]steppechange"/>
+    <suppress checks="." files="com[\\/]yalantis"/>
 </suppressions>
