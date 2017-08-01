@@ -19,4 +19,7 @@
     <suppress checks="." files="R.java" />
     <suppress checks="." files="BuildConfig.java" />
     <suppress checks="." files="ViewServer.java" />
+        
+    <!-- Veon Android exclusions -->
+    <suppress checks="." files="com[\\/]steppechange"/>
 </suppressions>
