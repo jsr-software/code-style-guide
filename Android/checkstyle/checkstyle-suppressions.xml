@@ -29,4 +29,5 @@
    
     <!-- Temporary exclusions during refactoring -->
     <suppress checks="MemberName" files="com[\\/]veon[\\/]network"/>
+    <suppress checks="StaticVariableName" files="com[\\/]veon[\\/]network"/>
 </suppressions>
