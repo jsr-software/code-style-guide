@@ -42,4 +42,9 @@
             <Bug code="IJU" />
         </Not>
     </Match>
+    
+    <!-- Ignore Steppechange package during refactoring -->
+    <Match>
+        <Package name="~com\.steppechange\.button\.websocket.*"/>
+    </Match>
 </FindBugsFilter>
