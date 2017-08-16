@@ -23,6 +23,9 @@
 
     <exclude-pattern>.*/R.java</exclude-pattern>
     <exclude-pattern>.*/gen/.*</exclude-pattern>
+  
+    <!-- Exclude Steppechange packages -->
+    <exclude-pattern>.*/com/steppechange/button/websocket/.*</exclude-pattern>
 
     <rule ref="rulesets/java/android.xml" />
     <rule ref="rulesets/java/clone.xml" />
